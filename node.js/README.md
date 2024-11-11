@@ -48,7 +48,7 @@
    ```
    touch Dockerfile
    ```
-2. Use [node.js/Dockerfile](node.js/Dockerfile) as a template
+2. Use [./Dockerfile](./Dockerfile) as a template
 3. Build your Docker image from your Dockerfile with, replacing `<APP-NAME>` with your app's name: 
    ```
    docker build -t <APP-NAME> .
